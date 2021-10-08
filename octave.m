@@ -24,5 +24,15 @@ abs (|3x-2|<1)
 abs  (-1<3x-2|<1)
 abs  ( -3<3x<1)
 abs  (-1<x<0.5)
-subplot ( -1,0.5)
+
+x=-4:1:4;
+y=x'*sin(x);
+plot (x,y)
+
+x=3:0.01:6;
+y=sqrt(2x^2=30)
+plot(x,y) 
+
+x=-1:0:0.5;
+y=sqrt(|3x-2|<1);
 plot (x,y)
